@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T03:43:39.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="29UQk1SoIjapmt1KZJuW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T03:54:21.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l6mRcAmgMVculGcYCAFi" version="21.6.9" type="github">
   <diagram name="Page-1" id="WDjXgOMhpXqyM_-1g0BM">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-2" value="GAME TEBAK ANGKA" style="rounded=0;whiteSpace=wrap;html=1;direction=south;horizontal=1;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="230" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-5" value="KOMPUTER" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="80" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-6" value="PEMAIN" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="90" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.042;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dFSZCdhGUXaLZmx69K5D-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-8" value="MENEBAK ANGKA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-9" value="CEK ANGKA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-10" value="RANDOM ANGKA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="dFSZCdhGUXaLZmx69K5D-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="330" as="sourcePoint" />
+            <mxPoint x="360" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFSZCdhGUXaLZmx69K5D-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dFSZCdhGUXaLZmx69K5D-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="670" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
